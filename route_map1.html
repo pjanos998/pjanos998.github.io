@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a5503df77a1594f8946838a7f44cc18 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4a5503df77a1594f8946838a7f44cc18" ></div>
+        
+</body>
+<script>    
+    
+            var map_4a5503df77a1594f8946838a7f44cc18 = L.map(
+                "map_4a5503df77a1594f8946838a7f44cc18",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4250061a55d95a19ca75312d70508fc8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4a5503df77a1594f8946838a7f44cc18);
+        
+    
+            var marker_cc65938639d8ae1c5f1669a879541caf = L.marker(
+                [47.490308, 19.063351],
+                {}
+            ).addTo(map_4a5503df77a1594f8946838a7f44cc18);
+        
+    
+            marker_cc65938639d8ae1c5f1669a879541caf.bindTooltip(
+                `<div>
+                     Budapest, Múzeum utca 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6fbb747f05126c929eaba03af914953 = L.marker(
+                [47.5101485, 19.0560151],
+                {}
+            ).addTo(map_4a5503df77a1594f8946838a7f44cc18);
+        
+    
+            marker_a6fbb747f05126c929eaba03af914953.bindTooltip(
+                `<div>
+                     Budapest, Nyugati pályaudvar, Price to pay:971 Ft
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1f0a0abcde18a8f68f967fb13cbc726d = L.polyline(
+                [[47.490308, 19.063351], [47.4904163, 19.0642063], [47.4922725, 19.0635703], [47.4918442, 19.0614079], [47.4943067, 19.0601174], [47.49758749999999, 19.0553352], [47.5069783, 19.0550315], [47.5080426, 19.0550379], [47.51021069999999, 19.0559042], [47.5101485, 19.0560151]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_4a5503df77a1594f8946838a7f44cc18);
+        
+    
+            poly_line_1f0a0abcde18a8f68f967fb13cbc726d.bindTooltip(
+                `<div>
+                     Price:971 Ft, Time:8.2 min, Distance:2.7 km
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb09176933f45673231f079b97171b74 = L.marker(
+                [47.5435411, 19.0411073],
+                {}
+            ).addTo(map_4a5503df77a1594f8946838a7f44cc18);
+        
+    
+            marker_eb09176933f45673231f079b97171b74.bindTooltip(
+                `<div>
+                     Budapest, Kerék utca 4, Price to pay:3126 Ft
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c8e8e6aebe72c2a79d0dd63af1a42120 = L.polyline(
+                [[47.5122478, 19.0570934], [47.5156268, 19.0596657], [47.5295265, 19.0654151], [47.53294450000001, 19.0665502], [47.5363501, 19.0592874], [47.53951439999999, 19.0460643], [47.5445946, 19.0425632], [47.5444577, 19.043598], [47.54544540000001, 19.043895], [47.5456835, 19.0419285], [47.5435411, 19.0411073]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_4a5503df77a1594f8946838a7f44cc18);
+        
+    
+            poly_line_c8e8e6aebe72c2a79d0dd63af1a42120.bindTooltip(
+                `<div>
+                     Price:2155 Ft, Time:10.8 min, Distance:5.6 km
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_4a5503df77a1594f8946838a7f44cc18.fitBounds(
+                [[47.490308, 19.063351], [47.5456835, 19.0419285]],
+                {}
+            );
+        
+</script>
